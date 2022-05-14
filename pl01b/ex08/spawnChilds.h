@@ -1,0 +1,1 @@
+int spawn_childs(int n);
