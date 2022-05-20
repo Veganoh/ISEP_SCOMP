@@ -9,7 +9,11 @@
 #include <stdlib.h>
 
 typedef struct {
-	// INSERT HERE THE STRUCTURE FOR THE GIVEN EXERCISE
+	int values[5][6];
+	int next_sensor;
+	int next_value;
+	int last_read;
+	int alarm_sensors;
 } shared_data_type;
 
 /**
@@ -97,3 +101,4 @@ int random_number_between(int min,int max){
 	int number = (rand() % max) + min;
 	return number;
 }
+
